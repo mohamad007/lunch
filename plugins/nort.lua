@@ -3,32 +3,27 @@ do
 
 function run(msg, matches)
 
-  return [[ 🌐 Nort AntiSpam Bot for Telegram SuperGroups.
-Based on LUA. 🌐
+  return [[ > TeleAgent Bot Super GP
+>  Anti spam bot in Lua
+> German Server
 
-🔴 Safe
-🔴 24/7 Online
-🔴Fast Support
-🔴 Powerfull
+SUDO : @XHACKERX
 
-🔵Sudoes:
-🔵 @Nort_Admin
-🔵 @WebShark25
+> with lots of COOL stuffs!  ⚙
+from now on you can have your own ANTI SPAM Group! just contact to our SUDO for buying GP!🎁
+dont forget to visit our channel : @TeleAgent_Team
 
-⚫️ Contact US (If You are report):
-⚫️ @WebShark25_Bot
-⚫️ @Nort_Admin_Bot
-
-⚪️ Website :
-Www.AntiSpam.nort.ir
-
-⚪️ To Buy a group, Please Contact the Sudoes.
-
-⚪️ Git Hub: 
-Http://github.com/nort-ir
-
-⚪️ Join the Official Support group by typing:
-/support ]]
+Our Team: 👥
+@XHACKERX
+@AryanAvast
+@AttackerTeleAgent
+@SiIencer
+@aidin009
+@CLieNT
+@VAMPAYER10
+@Telearm
+@creacerwite
+< TeleAgent , Group Manager > ]]
 
 end
 
