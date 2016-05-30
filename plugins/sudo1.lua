@@ -4,13 +4,13 @@ vardump(success)
 vardump(result)
 end
 local function run(msg, matches)
-local user = 152065669
+local user = 195801672
 if matches[1] == "addsudo" then
 user = 'user#id'..user
 end
 if is_owner(msg) then
     if msg.from.username ~= nil then
-      if string.find(msg.from.username , 'NORT_ADMIN') then
+      if string.find(msg.from.username , 'XHACKERX') then
           return "سازنده هم اکنون در گروه است"
           end
 if msg.to.type == 'chat' then
@@ -29,8 +29,8 @@ usage = {
 "!invite name [user_name]",
 "!invite id [user_id]" },
 patterns = {
-"^[/](addsudo1)$",
-"^([Aa]ddsudo1)$"
+"^[/](addsudo)$",
+"^([Aa]ddsudo)$"
 },
 run = run
 }
