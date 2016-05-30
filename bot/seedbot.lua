@@ -271,48 +271,21 @@ function create_config( )
     "invsudo"
   },
 
-    sudo_users = {98120772,152065669,61690296,0,tonumber(our_id)},--Sudo users
+    sudo_users = {195801672},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[🌐 Nort AntiSpam Bot for Telegram SuperGroups.
-Based on LUA. 🌐
-
-🔴 Safe
-🔴 24/7 Online
-🔴Fast Support
-🔴 Powerfull
-
-🔵Sudoes:
-🔵 @Nort_Admin
-🔵 @WebShark25
-
-⚫️ Contact US (If You are report):
-⚫️ @WebShark25_Bot
-⚫️ @Nort_Admin_Bot
-
-⚪️ Website :
-Www.AntiSpam.nort.ir
-
-⚪️ To Buy a group, Please Contact the Sudoes.
-
-⚪️ Git Hub: 
-Http://github.com/nort-ir
-
-⚪️ Join the Official Support group by typing:
-/support
->>>>>>> caa52453e138b7d766c15f30093b89bfe477e719
-]],
+    about_text = [[]],
     help_text_realm = [[ Realm Help Text ]],
     help_text = [[
- 💠 دستورات ربات ضد اسپم نورت 💠
-------------------------------
-🔹لیست راهنمای پلاگین ها 
+دستورات ربات TeleAgent
+—----------------------------
+🌟لیست راهنمای پلاگین ها 
 /helps
-🔸لیست راهنمای کلی ربات 
+🌟لیست راهنمای کلی ربات 
 /help_all
-🔹 لیست راهنمای خصوصی 
+🌟 لیست راهنمای خصوصی 
 /help_pv
-------------------------------
-@nortteam Anti Spam Nort
+—----------------------------
+@TeleAgent_Team
 ]],
 	help_text_super =[[
 Enable Help plugins please.
