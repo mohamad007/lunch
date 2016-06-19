@@ -1,142 +1,142 @@
 local function run(msg, matches)
 if is_momod(msg) and msg.to.type == "channel" then        
   local text = [[
-⚙ لیست کامند های سوپر گروه
+لیست دستورات های ربات
 
-🌟 !info
+✅ !info
 تمامی اطلاعات راجبع سوپر گروه را نشان میدهد
 
-🌟 !admins
+✅ !admins
 لیست ادمین های سوپر گروه
 
-🌟!owner
+✅!owner
 نام صاحب سوپر گروه
 
-🌟 !modlist
+✅ !modlist
 لیست مدیر های سوپر گروه
 
-🌟!bots
+✅!bots
 لیست بات های سوپر گروه
 
-🌟!who
+✅!who
 لیست تمامی افراد عضو سوپر گروه
 
-🌟 !block
+✅ !block
 اخراج کردن و بن کردن یک یوزر از سوپر گروه (بصورت رسمی از سوی تلگرام)
 
-🌟 !ban
+✅ !ban
 بن کردن یک نفر از سوپرگروه (بصورت غیر رسمی از سمت بات)
 
-🌟 !unban
+✅ !unban
 آن بن کردن یک نفر از سوپر گروه
 
-🌟 !id
+✅ !id
 نشان دادن آیدی سوپر گروه / آیدی شخص
 - برای ایدی یوزر ها: !id @UserName
 
-🌟 !id from
+✅ !id from
 دریافت آیدی از پیامی که فوروارد شده
 
-🌟 !kickme
+✅ !kickme
 اخراج کردن یک نفر از سوپر گروه
 
-🌟 !setowner
+✅ !setowner
 تعویض صاحب سوپر گروه
 
-🌟 !promote [username|id]
+✅ !promote [username|id]
 ترفیع درجه یک فرد به مدیر
 
-🌟 !demote [username|id]
+✅ !demote [username|id]
 تنزیل درجه یک فرد به عضو معمولی
 
-🌟 !setname
+✅ !setname
 تعویض نام سوپر گروه
 
-🌟 !setphoto
+✅ !setphoto
 تعویض عکس سوپر گروه
 
-🌟 !setrules
+✅ !setrules
 نوشتن قوانین سوپر گروه
 
-🌟!setabout
+✅!setabout
 نوشتن "درباره" سوپر گروه (بالای لیست ممبر ها می آید)
 
-🌟 !save [value] <text>
+✅ !save [value] <text>
 ذخیره سازی  اطلاعات اضافه در رابطه با چت
 
-🌟 !get [value]
+✅ !get [value]
 دریافت همون چیزی که تو کامند بالایی ست کردید 😐
 
-🌟 !newlink
+✅ !newlink
 ساخت لینک جدید
 
-🌟 !link
+✅ !link
 دریافت لینک گروه
 
-🌟 !rules
+✅ !rules
 مشاهده قوانین گروه
 
-🌟 !lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+✅ !lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
 قفل کردن ستینگ گروه
 *RTL = راست چین (پیام های از راست به چپ)*
 *strict: enable strict settings enforcement (violating user will be kicked)*
 
-🌟 !unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+✅ !unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
 باز کردن ستینگ گروه
 *RTL = راست چین (پیام های از راست به چپ)*
 *strict: disable strict settings enforcement (violating user will not be kicked)*
 
-🌟 !mute [all|audio|gifs|photo|video|service]
+✅ !mute [all|audio|gifs|photo|video|service]
 میوت (خفه) کردن
 - پیام های میوت شده درجا پاک میشوند
 
-🌟 !unmute [all|audio|gifs|photo|video|service]
+✅ !unmute [all|audio|gifs|photo|video|service]
 آن میوت کردن
-🌟 !setflood [value]
+✅ !setflood [value]
 ست کردن تعداد پیام های پشت سر هم تا یوزر کیک شود
 - مثلا اگر 10 باشد, فردی 10 پیام پشت هم بفرستد, کیک میشود.
 
-🌟 !settings
+✅ !settings
 دریافت ستینگ سوپر گروه
 
-🌟 !muteslist
+✅ !muteslist
 نشان دادن میوت های سوپر گروه
 
-🌟 !muteuser [username]
+✅ !muteuser [username]
 خفه کردن یک کاربر در سوپر گروه
 - اگر کاربر خفه شده پیامی بفرستد, درجا پیام حذف میگردد
 
-🌟 !mutelist
+✅ !mutelist
 لیست افراد میوت شده
 
-🌟 !banlist
+✅ !banlist
 لیست افراد بن شده
 
-🌟 !clean [rules|about|modlist|mutelist]
+✅ !clean [rules|about|modlist|mutelist]
 پاک کردن یکی از متغیر های بالا
 
-🌟 !del
+✅ !del
 پاک کردن یک مسیج (ریپلای کنید)
 
-🌟 !public [yes|no]
+✅ !public [yes|no]
 ویزیبیلیتی پیام ها
 
-🌟 !res [username]
+✅ !res [username]
 دریافت نام و آیدی یک یوزر با یوزرنیم (مثلا @UserName)
 
 
-🌟 !log
+✅ !log
 دریافت لاگ گروه
 *مثلا سرچ کنید برای دلیل کیک شدن [#RTL|#spam|#lockmember]
 
 
-⭕️شما میتوانید از هر سه کاراکتر # و ! و / در آغاز کامند ها استفاده کنید.
+شما میتوانید از هر سه کاراکتر # و ! و / در آغاز کامند ها استفاده کنید.
 
-⭕️فقط صاحب سوپر گروه از طریق ادد ممبر میتواند کاربر ادد کند.
+فقط صاحب سوپر گروه از طریق ادد ممبر میتواند کاربر ادد کند.
 
-⭕️فقط مدیر ها و صاحب سوپر گروه میتواند از بلاک, بن, آنبن, لینک جدید, دریافت لینک, ست کردن عکس, ست کردن نام, قفل, باز, ست کردن قوانین, ست کردن توضیحات و ستینگ استفاده کند.
+فقط مدیر ها و صاحب سوپر گروه میتواند از بلاک, بن, آنبن, لینک جدید, دریافت لینک, ست کردن عکس, ست کردن نام, قفل, باز, ست کردن قوانین, ست کردن توضیحات و ستینگ استفاده کند.
 
-⭕️فقط صاحب گروه و ادمین ها میتواند از کامند های res, promote, setowner استفاده کند.
+فقط صاحب گروه و ادمین ها میتواند از کامند های res, promote, setowner استفاده کند.
 
 
 ✅Alominateam✅
