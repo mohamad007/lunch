@@ -12,7 +12,7 @@ return {
     "ownerhelp: Show help for owners.",
   },
   patterns = {
-    "^([!/#]helpall)$",
+    "^([!/#]helpall44)$",
   }, 
   run = run,
 }
