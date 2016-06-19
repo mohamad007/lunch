@@ -4,7 +4,7 @@ if msg.to.type == "chat" or "channel" or "user"  then
  لیست دستورات ربات
 —--------------------------
 لیست راهنمای کلی ربات 
-/helpall
+/help_all
 
 لیست راهنمای خصوصی 
 /helppv
