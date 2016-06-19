@@ -1,7 +1,7 @@
 local function run(msg, matches)
 if is_momod(msg) and msg.to.type == "chat" then        
   local text = [[
-متنی تعریف نشده است 
+لیست دستورات کلی ربات هنوزاماده نمیباشد
 ]]
     send_msg("chat#id"..msg.to.id, text, ok_cb, false)
   end
@@ -12,7 +12,7 @@ return {
     "ownerhelp: Show help for owners.",
   },
   patterns = {
-    "^([!/#]help_all)$",
+    "^([!/#]helpall)$",
   }, 
   run = run,
 }
