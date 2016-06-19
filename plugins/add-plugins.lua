@@ -10,7 +10,7 @@ local function run(msg, matches)
   file:write(text)
   file:flush()
   file:close()
-  return "done" end return {
+  return "باموفقیت نصب شد" end return {
   description = "a Usefull plugin for sudo !",
   usage = "A plugins to add Another plugins to the server",
   patterns = {
