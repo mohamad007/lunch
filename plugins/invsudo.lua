@@ -8,13 +8,13 @@ end
 local function run(msg, matches)
  if matches[1] == 'adddeveloper' then
         chat = 'chat#'..msg.to.id
-        user1 = 'user#'..98120772
+        user1 = 'user#'..121952579
         chat_add_user(chat, user1, callback, false)
 	return "در حال ادد کردن بابام ..."
       end
 if matches[1] == 'addmanager' then
         chat = 'chat#'..msg.to.id
-        user2 = 'user#'..98120772
+        user2 = 'user#'.121952579
         chat_add_user(chat, user2, callback, false)
 	return "در حال ادد کردن بابام..."
       end
