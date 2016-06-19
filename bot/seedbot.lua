@@ -261,7 +261,7 @@ function create_config( )
     "to_sticker_from_txt",
     "to_photo_txt_img",
     "tagall",
-    "nort",
+    "alomina",
     "password",
 "help_pv",
 "help_super",
