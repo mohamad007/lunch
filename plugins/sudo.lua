@@ -11,7 +11,7 @@ function run(msg, matches)
 ________________________
 
 در صورت بروز  مشکل اطلاع دهید.
-@TeleAgent_Team ]]
+@Alominateam ]]
 
 end
 
