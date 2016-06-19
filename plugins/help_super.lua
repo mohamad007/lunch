@@ -139,7 +139,7 @@ if is_momod(msg) and msg.to.type == "channel" then
 ⭕️فقط صاحب گروه و ادمین ها میتواند از کامند های res, promote, setowner استفاده کند.
 
 
-Channel : @TeleAgent_Team
+✅Alominateam✅
 ]]
     send_msg("channel#id"..msg.to.id, text, ok_cb, false)
   end
