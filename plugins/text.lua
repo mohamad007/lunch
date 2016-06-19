@@ -3,9 +3,10 @@ do
         
   local text = [[
  ______________
-|Bot Is ON      |
-|@anti_Spam_nort|
-| ______________|
+ Bot Is ON      
+ @alomina       
+ sudo:@alominasudo
+ ______________
 
 ]]
     return text
