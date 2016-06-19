@@ -271,21 +271,19 @@ function create_config( )
     "invsudo"
   },
 
-    sudo_users = {195801672},--Sudo users
+    sudo_users = {121952579},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
     help_text_realm = [[ Realm Help Text ]],
     help_text = [[
-دستورات ربات TeleAgent
+لیست دستورات ربات
 —----------------------------
-🌟لیست راهنمای پلاگین ها 
-/helps
-🌟لیست راهنمای کلی ربات 
+لیست راهنمای کلی ربات 
 /help_all
-🌟 لیست راهنمای خصوصی 
+ لیست راهنمای خصوصی 
 /help_pv
 —----------------------------
-@TeleAgent_Team
+@Alominateam
 ]],
 	help_text_super =[[
 Enable Help plugins please.
