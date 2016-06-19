@@ -3,27 +3,19 @@ do
 
 function run(msg, matches)
 
-  return [[ > TeleAgent Bot Super GP
+  return [[ > Alomina Bot Super GP
 >  Anti spam bot in Lua
-> German Server
 
-SUDO : @XHACKERX
+SUDO : @AttackerTeleagent
 
 > with lots of COOL stuffs!  ⚙
 from now on you can have your own ANTI SPAM Group! just contact to our SUDO for buying GP!🎁
-dont forget to visit our channel : @TeleAgent_Team
+dont forget to visit our channel : @Alominateam
 
 Our Team: 👥
-@XHACKERX
-@AryanAvast
-@AttackerTeleAgent
-@SiIencer
-@aidin009
-@CLieNT
-@VAMPAYER10
-@Telearm
-@creacerwite
-< TeleAgent , Group Manager > ]]
+@spammer021
+@AttackerTeleagent
+< Alomina , Group Manager > ]]
 
 end
 
@@ -36,7 +28,7 @@ return {
 
   patterns = {
 
-    "^[/!#]nort$"
+    "^[/!#]alomina$"
 
   }, 
 
